@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    >
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/pawprint"
+        />
+
+    <ImageButton
+        android:id="@+id/btnStar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/star"
+        android:layout_marginLeft="270dp"
+        >
+    </ImageButton>
+    
+    <ImageButton
+        android:id="@+id/btnMenu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/menu"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</androidx.appcompat.widget.Toolbar>
