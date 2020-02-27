@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvMascotaData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_cardView"
+    android:layout_marginLeft="@dimen/margin_cardView"
+    android:layout_marginRight="@dimen/margin_cardView"
+    app:cardCornerRadius="@dimen/radius_cardview">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/ivMascotaFoto"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            app:layout_constraintBottom_toTopOf="@id/constrainLayout"
+            tools:ignore="MissingConstraints"/>
+
+        <TextView
+            android:id="@+id/tvRaiting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/ivMascotaFoto"
+            app:layout_constraintEnd_toStartOf="@id/ivBoneBlue"
+            tools:ignore="MissingConstraints"/>
+
+        <ImageView
+            android:id="@+id/ivBoneBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/constrainLayout"
+            app:layout_constraintTop_toBottomOf="@id/ivMascotaFoto"
+            android:layout_marginRight="@dimen/margin_cardView"
+            tools:ignore="MissingConstraints"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

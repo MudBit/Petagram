@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="action_favorite">Favoritos</string>
+
+    <string name="text_name">Nombre</string>
+    <string name="text_email">Correo electrónico</string>
+    <string name="title_form">Formulario</string>
+    <string name="text_message">Mensaje</string>
+    <string name="text_button_send">Enviar comentario</string>
+    <string name="text_developer_name">"@mud_bit"</string>
+    <string name="text_developer_bio">Daydreamer</string>
+</resources>
